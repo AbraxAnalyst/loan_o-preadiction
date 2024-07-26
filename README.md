@@ -1,6 +1,5 @@
 # loan Preadiction
-
-
+![](LOAN.jpg)
 ## Problem Statement
 In the current financial landscape, accurately predicting loan defaults is crucial for minimizing risks and optimizing decision-making processes for lending institutions. Given the diverse factors that influence a borrower's likelihood to default, it is essential to build a predictive model that can analyze these factors and forecast the probability of loan defaults effectively.
 This project aims to develop a machine learning model to predict the default status of loans based on a variety of borrower attributes, including age, income, home ownership, employment duration, loan intent, loan grade, loan amount, interest rate, loan term, historical default status, credit history length, and current loan status. By leveraging this model, lending institutions can make more informed decisions, reduce financial losses, and improve their overall risk management strategies.
@@ -52,3 +51,5 @@ I used random search techniques to optimize the hyperparameters of the selected 
  Observation
 The base model was created with 80% accuracy, but after Feature engineering using correlation matrix to determine the importance of this attributes to the Loan default. The model accuracy jump from 80% to 84% accuracy.
 The model was deployed and the frontend was handled with streamlit package on python.
+
+![first model](first model.png)
